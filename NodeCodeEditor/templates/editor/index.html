@@ -1,0 +1,33 @@
+<!-- 
+    NodeCodeEditor
+    - A simple code editor for javascript that works
+    with nodes, no need to use a single line of code
+    to create a node, just drag and drop the nodes
+    and connect them to create a program.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor - NodeCodeEditor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 w-screen h-screen text-white">
+    <header class="w-full h-[50px] bg-gray-700 flex">
+        <h1 class="flex items-center text-2xl font-bold px-5">NodeCodeEditor 1.0.0</h1>
+    </header>
+    <main class="w-full h-full cursor-grab" id="node-screen">
+
+    </main>
+
+    <script>
+        const nodeScreen = document.getElementById('node-screen');
+
+        nodeScreen.addEventListener('click', (e) => {
+            // Change the cursor to grab
+            nodeScreen.style.cursor = 'grab';
+        });
+    </script>
+</body>
+</html>

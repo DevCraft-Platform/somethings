@@ -1,0 +1,39 @@
+{
+    "template_name": "AwesomeTemplate",
+    "template_version": "1.0",
+    "template_author": "John Doe",
+    "template_description": "This is an awesome template",
+    "template_license": "MIT",
+    "template_tags": ["awesome", "cool", "template"],
+    "libraries": [
+        {
+            "name": "jQuery",
+            "version": "3.3.1",
+            "url": "https://code.jquery.com/jquery-3.3.1.min.js"
+        },
+        {
+            "name": "Bootstrap",
+            "version": "4.1.3",
+            "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        }
+    ],
+    "scripts": [
+        {
+            "name": "main.js",
+            "url": "js/main.js"
+        }
+    ],
+    "styles": [
+        {
+            "name": "main.css",
+            "url": "css/main.css"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "code": "en",
+            "url": "lang/en.json"
+        }
+    ]
+}

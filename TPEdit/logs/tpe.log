@@ -1,0 +1,239 @@
+17:48:32 ==================== 2024-06-05 - 17:48:32 ====================
+17:48:32 Starting TPEdit
+17:48:32 Checking if the project is valid
+17:50:39 Template selected: BlogTemp
+17:50:39 Template folder "BlogTemp" found
+17:50:39 template.json file found
+17:50:39 Template information:
+17:50:39 Name: Blog Template
+17:50:39 Author: John Doe
+17:50:39 Version: 1.0
+17:53:57 ==================== 2024-06-05 - 17:53:57 ====================
+17:53:57 Starting TPEdit
+17:53:57 Checking if the project is valid
+17:54:53 ==================== 2024-06-05 - 17:54:53 ====================
+17:54:53 Starting TPEdit
+17:54:53 Checking if the project is valid
+17:54:54 Template selected: AwesomeTemp
+17:54:54 Template folder "AwesomeTemp" found
+17:54:54 template.json file found
+17:54:54 Template information:
+17:54:54 Name: AwesomeTemplate
+17:54:54 Author: John Doe
+17:54:54 Version: 1.0
+17:55:08 ==================== 2024-06-05 - 17:55:08 ====================
+17:55:08 Starting TPEdit
+17:55:08 Checking if the project is valid
+17:55:09 Template selected: AwesomeTemp
+17:55:09 Template folder "AwesomeTemp" found
+17:55:09 template.json file found
+17:55:09 Template information:
+17:55:09 Name: AwesomeTemplate
+17:55:09 Author: John Doe
+17:55:09 Version: 1.0
+17:55:09 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+17:55:09 [33mPress CTRL+C to quit[0m
+17:55:09 127.0.0.1 - - [05/Jun/2024 17:55:09] "GET / HTTP/1.1" 200 -
+17:55:09 127.0.0.1 - - [05/Jun/2024 17:55:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:55:59 ==================== 2024-06-05 - 17:55:59 ====================
+17:55:59 Starting TPEdit
+17:55:59 Checking if the project is valid
+17:56:00 Template selected: AwesomeTemp
+17:56:00 Template folder "AwesomeTemp" found
+17:56:00 template.json file found
+17:56:00 Template information:
+17:56:00 Name: AwesomeTemplate
+17:56:00 Author: John Doe
+17:56:00 Version: 1.0
+17:56:00 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+17:56:00 [33mPress CTRL+C to quit[0m
+17:56:00 127.0.0.1 - - [05/Jun/2024 17:56:00] "GET / HTTP/1.1" 200 -
+17:56:00 127.0.0.1 - - [05/Jun/2024 17:56:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:56:30 ==================== 2024-06-05 - 17:56:30 ====================
+17:56:30 Starting TPEdit
+17:56:30 Checking if the project is valid
+17:56:31 Template selected: AwesomeTemp
+17:56:31 Template folder "AwesomeTemp" found
+17:56:31 template.json file found
+17:56:31 Template information:
+17:56:31 Name: AwesomeTemplate
+17:56:31 Author: John Doe
+17:56:31 Version: 1.0
+17:56:31 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+17:56:31 [33mPress CTRL+C to quit[0m
+17:56:31 127.0.0.1 - - [05/Jun/2024 17:56:31] "GET / HTTP/1.1" 200 -
+17:56:31 127.0.0.1 - - [05/Jun/2024 17:56:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:57:33 ==================== 2024-06-05 - 17:57:33 ====================
+17:57:33 Starting TPEdit
+17:57:33 Checking if the project is valid
+17:57:34 Template selected: AwesomeTemp
+17:57:34 Template folder "AwesomeTemp" found
+17:57:34 template.json file found
+17:57:34 Template information:
+17:57:34 Name: AwesomeTemplate
+17:57:34 Author: John Doe
+17:57:34 Version: 1.0
+17:57:34 127.0.0.1 - - [05/Jun/2024 17:57:34] "GET / HTTP/1.1" 200 -
+17:57:34 127.0.0.1 - - [05/Jun/2024 17:57:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:58:34 ==================== 2024-06-05 - 17:58:34 ====================
+17:58:34 Starting TPEdit
+17:58:34 Checking if the project is valid
+17:58:35 Template selected: AwesomeTemp
+17:58:35 Template folder "AwesomeTemp" found
+17:58:35 template.json file found
+17:58:35 Template information:
+17:58:35 Name: AwesomeTemplate
+17:58:35 Author: John Doe
+17:58:35 Version: 1.0
+17:58:35 Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ivnovomi/Desktop/TPEdit/src/app/main.py", line 27, in home
+    return render_template('app/editor/index.html')
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ivnovomi/.local/lib/python3.10/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app/editor/index.html
+17:58:35 127.0.0.1 - - [05/Jun/2024 17:58:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+17:58:35 127.0.0.1 - - [05/Jun/2024 17:58:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:59:49 ==================== 2024-06-05 - 17:59:49 ====================
+17:59:49 Starting TPEdit
+17:59:49 Checking if the project is valid
+17:59:50 Template selected: AwesomeTemp
+17:59:50 Template folder "AwesomeTemp" found
+17:59:50 template.json file found
+17:59:50 Template information:
+17:59:50 Name: AwesomeTemplate
+17:59:50 Author: John Doe
+17:59:50 Version: 1.0
+17:59:50 127.0.0.1 - - [05/Jun/2024 17:59:50] "GET / HTTP/1.1" 200 -
+17:59:51 127.0.0.1 - - [05/Jun/2024 17:59:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:00:15 ==================== 2024-06-05 - 18:00:15 ====================
+18:00:15 Starting TPEdit
+18:00:15 Checking if the project is valid
+18:00:16 Template selected: AwesomeTemp
+18:00:16 Template folder "AwesomeTemp" found
+18:00:16 template.json file found
+18:00:16 Template information:
+18:00:16 Name: AwesomeTemplate
+18:00:16 Author: John Doe
+18:00:16 Version: 1.0
+18:00:17 127.0.0.1 - - [05/Jun/2024 18:00:17] "GET / HTTP/1.1" 200 -
+18:00:17 127.0.0.1 - - [05/Jun/2024 18:00:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:01:56 ==================== 2024-06-05 - 18:01:56 ====================
+18:01:56 Starting TPEdit
+18:01:56 Checking if the project is valid
+18:01:57 Template selected: AwesomeTemp
+18:01:57 Template folder "AwesomeTemp" found
+18:01:57 template.json file found
+18:01:57 Template information:
+18:01:57 Name: AwesomeTemplate
+18:01:57 Author: John Doe
+18:01:57 Version: 1.0
+18:01:58 127.0.0.1 - - [05/Jun/2024 18:01:58] "GET / HTTP/1.1" 200 -
+18:01:58 127.0.0.1 - - [05/Jun/2024 18:01:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:03:23 ==================== 2024-06-05 - 18:03:23 ====================
+18:03:23 Starting TPEdit
+18:03:23 Checking if the project is valid
+18:03:24 Template selected: AwesomeTemp
+18:03:24 Template folder "AwesomeTemp" found
+18:03:24 template.json file found
+18:03:24 Template information:
+18:03:24 Name: AwesomeTemplate
+18:03:24 Author: John Doe
+18:03:24 Version: 1.0
+18:03:25 127.0.0.1 - - [05/Jun/2024 18:03:25] "GET / HTTP/1.1" 200 -
+18:03:25 127.0.0.1 - - [05/Jun/2024 18:03:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:04:35 ==================== 2024-06-05 - 18:04:35 ====================
+18:04:35 Starting TPEdit
+18:04:35 Checking if the project is valid
+18:04:36 Template selected: AwesomeTemp
+18:04:36 Template folder "AwesomeTemp" found
+18:04:36 template.json file found
+18:04:36 Template information:
+18:04:36 Name: AwesomeTemplate
+18:04:36 Author: John Doe
+18:04:36 Version: 1.0
+18:04:36 127.0.0.1 - - [05/Jun/2024 18:04:36] "GET / HTTP/1.1" 200 -
+18:04:36 127.0.0.1 - - [05/Jun/2024 18:04:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:05:23 ==================== 2024-06-05 - 18:05:23 ====================
+18:05:23 Starting TPEdit
+18:05:23 Checking if the project is valid
+18:05:24 Template selected: AwesomeTemp
+18:05:24 Template folder "AwesomeTemp" found
+18:05:24 template.json file found
+18:05:24 Template information:
+18:05:24 Name: AwesomeTemplate
+18:05:24 Author: John Doe
+18:05:24 Version: 1.0
+18:05:24 127.0.0.1 - - [05/Jun/2024 18:05:24] "GET / HTTP/1.1" 200 -
+18:05:24 127.0.0.1 - - [05/Jun/2024 18:05:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+16:35:03 ==================== 2024-06-13 - 16:35:03 ====================
+16:35:03 Starting TPEdit
+16:35:03 Checking if the project is valid
+16:35:05 Template selected: AwesomeTemp
+16:35:05 Template folder "AwesomeTemp" found
+16:35:05 template.json file found
+16:35:05 Template information:
+16:35:05 Name: AwesomeTemplate
+16:35:05 Author: John Doe
+16:35:05 Version: 1.0
+16:35:05 127.0.0.1 - - [13/Jun/2024 16:35:05] "GET / HTTP/1.1" 200 -
+16:35:05 127.0.0.1 - - [13/Jun/2024 16:35:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+16:35:45 ==================== 2024-06-13 - 16:35:45 ====================
+16:35:45 Starting TPEdit
+16:35:45 Checking if the project is valid
+16:35:46 Template selected: AwesomeTemp
+16:35:46 Template folder "AwesomeTemp" found
+16:35:46 template.json file found
+16:35:46 Template information:
+16:35:46 Name: AwesomeTemplate
+16:35:46 Author: John Doe
+16:35:46 Version: 1.0
+16:35:46 127.0.0.1 - - [13/Jun/2024 16:35:46] "GET / HTTP/1.1" 200 -
+16:35:46 127.0.0.1 - - [13/Jun/2024 16:35:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+16:36:15 ==================== 2024-06-13 - 16:36:15 ====================
+16:36:15 Starting TPEdit
+16:36:15 Checking if the project is valid
+16:36:16 Template selected: AwesomeTemp
+16:36:16 Template folder "AwesomeTemp" found
+16:36:16 template.json file found
+16:36:16 Template information:
+16:36:16 Name: AwesomeTemplate
+16:36:16 Author: John Doe
+16:36:16 Version: 1.0
+16:36:16 127.0.0.1 - - [13/Jun/2024 16:36:16] "GET / HTTP/1.1" 200 -
+16:36:17 127.0.0.1 - - [13/Jun/2024 16:36:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+16:36:34 ==================== 2024-06-13 - 16:36:34 ====================
+16:36:34 Starting TPEdit
+16:36:34 Checking if the project is valid
+16:36:35 Template selected: AwesomeTemp
+16:36:35 Template folder "AwesomeTemp" found
+16:36:35 template.json file found
+16:36:35 Template information:
+16:36:35 Name: AwesomeTemplate
+16:36:35 Author: John Doe
+16:36:35 Version: 1.0
+16:36:35 127.0.0.1 - - [13/Jun/2024 16:36:35] "GET / HTTP/1.1" 200 -
+16:36:35 127.0.0.1 - - [13/Jun/2024 16:36:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
